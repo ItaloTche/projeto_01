@@ -13,6 +13,7 @@ Este é meu primeiro projeto em **Git** e **Github**.
     * Adcionar o caminho, no Git, do repositório criado no Github. Para isso usar o comando, informado ao criar, ***git remote add origin https://github.com/user.name/caminhodorepositoriocriado***. O termo "origin" seria o apelido, que pode ser qualquer coisa, dado ao repositório local. Por padrão, e boas práticas, é chamado de "origin"
     * Para incluir os arquivos "commitados" no Github, é necessário realizar o "push" utilizando o comando ***git push -u origin main***. Esse "-u" faz-se necessário na primeira vez que é feito o login. Depois não é mais necessário nesse repositório, mas, por boas práticas, é bom sempre informar
     * Sempre que preciar carregar os arquivos adicionados à stage e "commitados", faz-se necessário usar o comando "push" (***git push origin main***)
+    * Comando para mudar de **"branch"** é o ***checkout***, mas usando "-b" em seguida, implica na criação de uma nova **"branch"**. Dessa forma ficaria ***git checkout -b 'nova_branch'***
 - Instruções básicas sobre o Git / Github (Github):
     * Criar um repositório onde será informado o nome e descrição, como boas práticas
     * Add "Readme" apenas se já não tiver feito no Git
