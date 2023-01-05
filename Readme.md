@@ -21,4 +21,6 @@ Este é meu primeiro projeto em **Git** e **Github**.
     * É dado o caminho do repositório no Github para que seja vinculado ao repositório do Git
     * Feito o login com o "push" é aberto uma pagina para efetuar o logon no portal Github
 
+Para o caso de arquivos/pastas que não devem ser carregadas nos repositórios, ou ignorados, criar o arquivo *".gitignore"* (pode criar direto na pasta ou atraves da IDE, como o VS Code). Nesse arquivo deve ser listado os arquivos e pastas que deverão ficar de fora
+
 > Testando uma nova branch "nova_branch"
