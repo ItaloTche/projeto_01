@@ -19,3 +19,5 @@ Este é meu primeiro projeto em **Git** e **Github**.
     * Add "Readme" apenas se já não tiver feito no Git
     * É dado o caminho do repositório no Github para que seja vinculado ao repositório do Git
     * Feito o login com o "push" é aberto uma pagina para efetuar o logon no portal Github
+
+> Testando uma nova branch "nova_branch"
