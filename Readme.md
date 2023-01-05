@@ -14,6 +14,7 @@ Este é meu primeiro projeto em **Git** e **Github**.
     * Para incluir os arquivos "commitados" no Github, é necessário realizar o "push" utilizando o comando ***git push -u origin main***. Esse "-u" faz-se necessário na primeira vez que é feito o login. Depois não é mais necessário nesse repositório. Mas as boas práticas sugerem manter todo o resto após ao "-u"
     * Sempre que preciar carregar os arquivos adicionados à stage e "commitados", faz-se necessário usar o comando "push" (***git push origin main***)
     * Comando para mudar de **"branch"** é o ***checkout***, mas usando "-b" em seguida, implica na criação de uma nova **"branch"**. Dessa forma ficaria ***git checkout -b 'nova_branch'***
+    * Para fazer o **"merge"**, utliza-se o comando ***git merge nome_da_branch_em_questao***. Mas, antes de fazer o merge, é preciso saber se a **"branch"** ativa é a mesma para a qual se quer fazer o **"merge"**. Se não for, utlizar o comando do *"checkout"*, mas sem incluir o "-b"
 - Instruções básicas sobre o Git / Github (Github):
     * Criar um repositório onde será informado o nome e descrição, como boas práticas
     * Add "Readme" apenas se já não tiver feito no Git
