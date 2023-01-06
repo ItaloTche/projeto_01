@@ -16,6 +16,7 @@ Este é meu primeiro projeto em **Git** e **Github**.
     * Comando para mudar de **"branch"** é o ***checkout***, mas usando "-b" em seguida, implica na criação de uma nova **"branch"**. Dessa forma ficaria ***git checkout -b 'nova_branch'***
     * Para fazer o **"merge"**, utliza-se o comando ***git merge nome_da_branch_em_questao***. Mas, antes de fazer o merge, é preciso saber se a **"branch"** ativa é a mesma para a qual se quer fazer o **"merge"**. Se não for, utlizar o comando do *"checkout"*, mas sem incluir o "-b"
     * Para clonar algum repositório, deve-se usar o comando ***git clone https://github.com/user.name/nome_do_repositorio*** na pasta, que fica na máquina, onde se pretende clonar o repositório
+    * Para situações em que se queira atualizar o repositório que foi clonado, utlizar o comando ***git pull*** dentro da pasta/repositório que foi clonada
 - Instruções básicas sobre o Git / Github (Github):
     * Criar um repositório onde será informado o nome e descrição, como boas práticas
     * Add "Readme" apenas se já não tiver feito no Git
