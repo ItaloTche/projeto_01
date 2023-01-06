@@ -10,11 +10,12 @@ Este é meu primeiro projeto em **Git** e **Github**.
     * O comando ***git add arquivo*** faz com que o arquivo passe a ser "trackeado". Para adicionar na "stage" todos os arquivos de uma vez, utilizar o comando ***git add .***
     * O comando ***git commit -m "comentário"*** adciona os "commit's" que são os comentários informativos quando o arquivo é alterado
     * Caso esteja na **branch** "master", alterar para "main" usando o comando ***git branch -M main***
-    * Adcionar o caminho, no Git, do repositório criado no Github. Para isso usar o comando, informado ao criar, ***git remote add origin https://github.com/user.name/caminhodorepositoriocriado***. O termo "origin" seria o apelido, que pode ser qualquer coisa, dado ao repositório local. Por padrão, e boas práticas, é chamado de "origin"
+    * Adcionar o caminho, no Git, do repositório criado no Github. Para isso usar o comando, informado ao criar, ***git remote add origin https://github.com/user.name/caminho_do_repositorio_criado***. O termo "origin" seria o apelido, que pode ser qualquer coisa, dado ao repositório local. Por padrão, e boas práticas, é chamado de "origin"
     * Para incluir os arquivos "commitados" no Github, é necessário realizar o "push" utilizando o comando ***git push -u origin main***. Esse "-u" faz-se necessário na primeira vez que é feito o login. Depois não é mais necessário nesse repositório. Mas as boas práticas sugerem manter todo o resto após ao "-u"
     * Sempre que preciar carregar os arquivos adicionados à stage e "commitados", faz-se necessário usar o comando "push" (***git push origin main***)
     * Comando para mudar de **"branch"** é o ***checkout***, mas usando "-b" em seguida, implica na criação de uma nova **"branch"**. Dessa forma ficaria ***git checkout -b 'nova_branch'***
     * Para fazer o **"merge"**, utliza-se o comando ***git merge nome_da_branch_em_questao***. Mas, antes de fazer o merge, é preciso saber se a **"branch"** ativa é a mesma para a qual se quer fazer o **"merge"**. Se não for, utlizar o comando do *"checkout"*, mas sem incluir o "-b"
+    * Para clonar algum repositório, deve-se usar o comando ***git clone https://github.com/user.name/nome_do_repositorio*** na pasta, que fica na máquina, onde se pretende clonar o repositório
 - Instruções básicas sobre o Git / Github (Github):
     * Criar um repositório onde será informado o nome e descrição, como boas práticas
     * Add "Readme" apenas se já não tiver feito no Git
